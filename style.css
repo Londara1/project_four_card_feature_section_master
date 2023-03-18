@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700&family=Poppins:wght@300;400;600&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #FAFAFA;
+    padding: 85px 32px 78px 32px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.firstHeading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 275;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.166667px;
+    color: #4D4F62;
+}
+
+.secondHeading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.166667px;
+    color: #4D4F62;
+}
+
+.paragraph {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.104167px;
+    color: #4D4F62;
+    opacity: 0.5;
+    margin-top: 13px;
+}
+
+.cardSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 76px;
+    align-items: center;
+}
+
+.cardDiv {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+}
+
+.icon {
+    width: 57px;
+    margin-top: 33px;
+    align-self: flex-end;
+}
+
+.lineDiv {
+    width: 100%;
+    height: 3.55px;
+}
+
+.spaceRed{
+    margin-top: 25px;
+}
+
+.spaceOrange{
+    margin-top: 25px;
+}
+
+.spaceBlue{
+    margin-top: 25px;
+}
+
+.colorLightblue {
+    background-color: #44D3D2;
+}
+
+.colorRed {
+    background-color: #EA5454;
+}
+
+.colorOrange {
+    background-color: #FCAE4A;
+}
+
+.colorBlue {
+    background-color: #549EF2;
+}
+
+.wholeCard {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 27px;
+}
+
+.cardHeading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4D4F62;
+}
+
+.cardParagraph {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.0902778px;
+    color: #4D4F62;
+    opacity: 0.5;
+}
+
+
+@media (min-width: 1440px) {
+    .firstHeading, .secondHeading {
+        font-size: 36px;
+        line-height: 54px;
+        letter-spacing: 0.25px;
+    }
+
+    .paragraph {
+        width: 540px;
+    }
+
+    .cardDiv {
+        width: 350px;
+        height: 250px;
+    }
+
+    .cardSection {
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 64px;
+        column-gap: 30px;
+    }
+
+    .spaceRed, .spaceBlue{
+        margin-top: 0px;
+    }
+
+    .spaceOrange{
+        margin-top: 30px;
+    }
+}
